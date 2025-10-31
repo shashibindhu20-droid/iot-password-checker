@@ -21,7 +21,7 @@ It ensures device security by preventing weak or reused passwords.
 3. Generate a new strong password if needed.  
 
 ## 🌐 Live Demo
-[Click here to view the live site](https://yourusername.github.io/IoT-Password-Strength-Checker/)
+[Click here to view the live site](https://shashibindhu20-droid.github.io/iot-password-checker/))
 
 ## 👩‍💻 Developed for
-*Your Hackathon Name Here*
+HACKX*
