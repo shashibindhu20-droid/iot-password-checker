@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Device Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IoT Device Password Strength Checker</h1>
+
+        <!-- Registration & Login Section -->
+        <div class="auth-section">
+            <h2>Register or Login</h2>
+            <form id="authForm">
+                <input type="text" id="username" placeholder="Username or Email" required>
+                <input type="password" id="userPassword" placeholder="Enter Password" required>
+                <button type="submit" class="btn">Register/Login</button>
+            </form>
+            <div id="authMessage" class="message"></div>
+        </div>
+
+        <hr>
+
+        <!-- Password Strength Checker Section -->
+        <div class="strength-section">
+            <h2>Password Strength Checker</h2>
+            <input type="password" id="checkPassword" placeholder="Type password to check" autocomplete="off">
+            <div id="strengthBar"></div>
+            <div id="strengthText"></div>
+        </div>
+
+        <hr>
+
+        <!-- Strong Password Generator Section -->
+        <div class="generator-section">
+            <h2>Generate Strong Password</h2>
+            <button id="generateBtn" class="btn">Generate Password</button>
+            <input type="text" id="generatedPassword" readonly>
+            <button id="copyBtn" class="btn">Copy</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
